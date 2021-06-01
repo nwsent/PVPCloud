@@ -1,0 +1,5 @@
+name: PVPC-Database
+version: 2.0
+main: pl.pvpcloud.database.DatabasePluginBukkit
+author: PVPCloud Team
+softdepend: ['PVPC-Common']

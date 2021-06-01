@@ -1,0 +1,5 @@
+name: PVPC-GroupTpHub
+version: 2.0
+main: pl.pvpcloud.grouptp.hub.GroupTpPlugin
+author: PVPCloud Team
+softdepend: ['PVPC-Database', 'PVPC-Connect', 'PVPC-Tablist']

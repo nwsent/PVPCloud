@@ -1,0 +1,13 @@
+repositories {
+    mavenCentral()
+}
+
+dependencies {
+    compileOnly 'org.github.paperspigot:paperspigot-api:1.8.8-R0.1-SNAPSHOT'
+    compileOnly 'org.github.paperspigot:paperspigot:1.8.8-R0.1-SNAPSHOT'
+
+    compileOnly group: "com.comphenix.protocol", name: "ProtocolLib", version: "4.5.0"
+
+    compileOnly project(":PVPC-Libraries")
+    compileOnly project(":PVPC-Common")
+}

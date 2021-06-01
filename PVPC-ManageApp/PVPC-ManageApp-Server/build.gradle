@@ -1,0 +1,9 @@
+repositories {
+    mavenCentral()
+}
+
+dependencies {
+    compileOnly project(":PVPC-Libraries")
+
+    compile project(":PVPC-ManageApp:PVPC-ManageApp-API")
+}

@@ -1,0 +1,6 @@
+name: PVPC-Edition
+version: 2.0
+author: Cyramek
+main: pl.pvpcloud.bootstrap.BootstrapPlugin
+depend: [PVPC-Common]
+softdepend: [PVPC-Common]

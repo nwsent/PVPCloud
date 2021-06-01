@@ -1,0 +1,30 @@
+buildscript {
+    repositories {
+        jcenter()
+    }
+
+    dependencies {
+        classpath 'com.github.jengelman.gradle.plugins:shadow:5.1.0'
+    }
+}
+
+apply plugin: 'com.github.johnrengelman.shadow'
+
+shadowJar {
+    relocate('io.netty', 'pl.pvpcloud.netty')
+}
+
+dependencies {
+    compileOnly 'org.github.paperspigot:paperspigot-api:1.8.8-R0.1-SNAPSHOT'
+    compileOnly 'org.github.paperspigot:paperspigot:1.8.8-R0.1-SNAPSHOT'
+    compileOnly 'net.md-5:bungeecord-api:1.14-SNAPSHOT'
+    compileOnly project(":PVPC-Libraries")
+    compileOnly project(":PVPC-Common")
+    compileOnly project(":PVPC-Bungee-Common")
+    compile "de.ruedigermoeller:fst:2.56"
+    compile group: 'io.lettuce', name: 'lettuce-core', version: '5.2.1.RELEASE'
+
+    testCompileOnly project(":PVPC-Libraries")
+}
+
+jar.dependsOn shadowJar

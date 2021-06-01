@@ -1,0 +1,5 @@
+name: PVPC-Bungee-Common
+author: Krzysiekigry
+version: 2.0
+main: pl.pvpcloud.common.CommonPlugin
+softDepends: ['PVPC-Bungee-Libraries']

@@ -1,0 +1,18 @@
+repositories {
+    mavenCentral()
+}
+
+dependencies {
+    compileOnly project(":PVPC-Libraries")
+    compileOnly project(":PVPC-Common")
+    compileOnly project(":PVPC-DatabaseAPI")
+    compileOnly project(":PVPC-Statistics")
+    compileOnly project(":PVPC-Scoreboard")
+    compileOnly project(":PVPC-Nats")
+    compileOnly project(":PVPC-Tools")
+    compileOnly project(":PVPC-Redis")
+    compileOnly project(":PVPC-Connect")
+    compileOnly project(":PVPC-Tablist")
+
+    compile project(":PVPC-GroupTP:PVPC-GroupTPCommon")
+}

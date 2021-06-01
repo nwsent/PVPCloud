@@ -1,0 +1,8 @@
+repositories {
+    mavenCentral()
+}
+
+dependencies {
+    compileOnly project(":PVPC-Libraries")
+    compileOnly project(":PVPC-Nats")
+}

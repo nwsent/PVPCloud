@@ -1,0 +1,22 @@
+repositories {
+    mavenCentral()
+    maven {
+        name = 'codecrafter47-repo'
+        url = 'http://nexus.codecrafter47.de/content/repositories/public/'
+    }
+}
+
+dependencies {
+    compileOnly project(":PVPC-Libraries")
+    compileOnly project(":PVPC-Common")
+    compileOnly project(":PVPC-DatabaseAPI")
+    compileOnly project(":PVPC-Tag")
+    compileOnly project(":PVPC-Fight")
+    compileOnly project(":PVPC-Statistics")
+    compileOnly project(":PVPC-Scoreboard")
+    compileOnly project(":PVPC-Tools")
+    compileOnly project(":PVPC-Nats")
+    compileOnly project(":PVPC-Guilds")
+    compileOnly 'org.github.paperspigot:paperspigot-api:1.8.8-R0.1-SNAPSHOT'
+    compileOnly 'org.github.paperspigot:paperspigot:1.8.8-R0.1-SNAPSHOT'
+}

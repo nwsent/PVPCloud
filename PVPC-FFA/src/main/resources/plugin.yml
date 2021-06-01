@@ -1,0 +1,5 @@
+name: PVPC-FFA
+version: 2.0
+main: pl.pvpcloud.ffa.FFAPlugin
+author: PVPCloud Team
+softdepend: ['PVPC-Database', 'PVPC-Fight', 'PVPC-Statistics']

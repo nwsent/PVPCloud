@@ -1,0 +1,15 @@
+dependencies {
+    compileOnly project(":PVPC-Libraries")
+    compileOnly project(":PVPC-Common")
+    compileOnly project(":PVPC-Bungee-Common")
+    compileOnly 'org.github.paperspigot:paperspigot-api:1.8.8-R0.1-SNAPSHOT'
+    compileOnly 'org.github.paperspigot:paperspigot:1.8.8-R0.1-SNAPSHOT'
+    compileOnly 'net.md-5:bungeecord-api:1.14-SNAPSHOT'
+    compile 'io.protostuff:protostuff-runtime:1.6.2'
+    compile 'io.protostuff:protostuff-core:1.6.2'
+    compile 'io.protostuff:protostuff-msgpack:1.6.2'
+    compile 'org.msgpack:msgpack-core:0.8.20'
+    compile 'io.nats:jnats:2.6.6'
+
+    testCompileOnly project(":PVPC-Libraries")
+}

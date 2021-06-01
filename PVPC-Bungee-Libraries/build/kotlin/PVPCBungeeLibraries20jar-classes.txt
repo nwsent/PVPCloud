@@ -1,0 +1,1 @@
+C:\Users\alanp\IdeaProjects\PVPCloud\PVPC-Bungee-Libraries\build\classes\kotlin\main\pl\pvpcloud\libraries\LibrariesPlugin.class

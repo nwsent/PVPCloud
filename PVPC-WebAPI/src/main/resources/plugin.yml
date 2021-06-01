@@ -1,0 +1,5 @@
+name: PVPC-WebAPI
+version: 2.0
+main: pl.pvpcloud.bukkit.WebAPIPlugin
+author: PVPCloud Team
+softdepend: ['PVPC-Common']

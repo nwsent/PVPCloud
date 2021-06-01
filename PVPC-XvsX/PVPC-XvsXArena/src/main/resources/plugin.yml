@@ -1,0 +1,5 @@
+name: PVPC-XvsXArena
+version: 2.0
+main: pl.pvpcloud.xvsx.arena.XvsXPlugin
+author: PVPCloud Team
+softdepend: ['PVPC-Database', 'PVPC-Statistics']

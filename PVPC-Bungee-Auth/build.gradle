@@ -1,0 +1,16 @@
+repositories {
+    mavenCentral()
+    flatDir {
+        dirs 'libs'
+    }
+}
+
+dependencies {
+    compileOnly "com.github.SpigotMC:BungeeCord:master-SNAPSHOT"
+    compileOnly project(":PVPC-Bungee-Libraries")
+    compileOnly project(":PVPC-Bungee-Common")
+    compileOnly project(":PVPC-DatabaseAPI")
+    compileOnly project(":PVPC-Connect")
+    compileOnly project(":PVPC-Nats")
+    compileOnly name: 'BlazingPluginAPI'
+}

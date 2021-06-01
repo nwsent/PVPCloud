@@ -1,0 +1,5 @@
+name: PVPC-Hub
+version: 2.0
+main: pl.pvpcloud.hub.HubPlugin
+author: PVPCloud Team
+softdepend: ['PVPC-Common', 'PVPC-Connect']

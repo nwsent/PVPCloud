@@ -1,0 +1,5 @@
+name: PVPC-GroupTpArena
+version: 2.0
+main: pl.pvpcloud.grouptp.arena.GroupTpPlugin
+author: PVPCloud Team
+softdepend: ['PVPC-Database', 'PVPC-Fight', 'PVPC-Statistics']

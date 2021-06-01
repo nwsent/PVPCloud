@@ -1,0 +1,5 @@
+name: PVPC-Bungee-Auth
+author: Krzysiekigry
+version: 2.0
+main: pl.pvpcloud.auth.AuthPlugin
+depend: ['PVPC-Bungee-Common']

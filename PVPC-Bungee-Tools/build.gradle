@@ -1,0 +1,18 @@
+repositories {
+    mavenCentral()
+    flatDir {
+        dirs 'libs'
+    }
+}
+
+dependencies {
+    compileOnly project(":PVPC-Bungee-Libraries")
+    compileOnly project(":PVPC-Bungee-Common")
+    compileOnly project(":PVPC-DatabaseAPI")
+    compileOnly project(":PVPC-Connect")
+    compileOnly project(":PVPC-Nats")
+    compileOnly name: 'BlazingPluginAPI'
+    compileOnly name: 'bungee'
+
+    compile project(":PVPC-Packets")
+}

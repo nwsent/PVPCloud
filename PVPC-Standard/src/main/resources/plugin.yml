@@ -1,0 +1,4 @@
+name: PVPC-Standard
+version: 1.0
+main: pl.pvpcloud.standard.StandardPlugin
+author: PVPCloud Team

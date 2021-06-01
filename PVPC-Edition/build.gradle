@@ -1,0 +1,10 @@
+dependencies {
+    compileOnly project(":PVPC-Libraries")
+    compileOnly project(":PVPC-Common")
+    compileOnly project(":PVPC-Nats")
+    compileOnly project(":PVPC-DatabaseAPI")
+    compileOnly project(":PVPC-Connect")
+    compileOnly project(":PVPC-Tag")
+    compileOnly 'org.github.paperspigot:paperspigot-api:1.8.8-R0.1-SNAPSHOT'
+    compileOnly 'org.github.paperspigot:paperspigot:1.8.8-R0.1-SNAPSHOT'
+}

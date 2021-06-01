@@ -1,0 +1,7 @@
+main: pl.pvpcloud.anticheat.AntiCheatPlugin
+name: PVPC-AntiCheat
+version: 2.0
+
+commands:
+  anticheat:
+    usage: /anticheat

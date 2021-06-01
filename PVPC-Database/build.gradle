@@ -1,0 +1,8 @@
+dependencies {
+    compile group: 'org.mongodb', name: 'mongodb-driver-async', version: '3.11.2'
+    compileOnly project(":PVPC-Libraries")
+    compileOnly project(":PVPC-Common")
+    compileOnly "net.md-5:bungeecord-api:1.14-SNAPSHOT"
+    compileOnly 'org.github.paperspigot:paperspigot-api:1.8.8-R0.1-SNAPSHOT'
+    compileOnly 'org.github.paperspigot:paperspigot:1.8.8-R0.1-SNAPSHOT'
+}

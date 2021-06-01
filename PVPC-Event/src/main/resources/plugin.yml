@@ -1,0 +1,5 @@
+name: PVPC-Event
+version: 2.0
+main: pl.pvpcloud.event.EventPlugin
+author: PVPCloud Team
+softdepend: ['PVPC-Database', 'PVPC-Fight']

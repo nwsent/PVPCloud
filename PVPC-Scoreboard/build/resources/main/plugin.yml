@@ -1,0 +1,5 @@
+name: PVPC-Scoreboard
+version: 2.0
+author: PVPCloud Team
+depend: ['PVPC-Common']
+main: pl.pvpcloud.scoreboard.ScoreboardPlugin

@@ -1,0 +1,67 @@
+plugins {
+    id 'java'
+  //  id 'org.jetbrains.kotlin.jvm' version '1.3.70'
+    id 'org.jetbrains.kotlin.jvm' version '1.4.10'
+}
+
+group = 'pl.pvpcloud'
+version = '2.0'
+
+allprojects {
+    apply plugin: 'kotlin'
+    apply plugin: 'java'
+
+    sourceCompatibility = 1.8
+
+    jar {
+        from {
+            configurations.compile.collect
+                    { it.isDirectory() ? it : zipTree(it) }
+        }
+
+        baseName = "${project.name}-${rootProject.version}"
+    }
+
+    repositories {
+        mavenLocal()
+        mavenCentral()
+        jcenter()
+
+        maven {
+            url 'https://oss.sonatype.org/content/repositories/snapshots'
+        }
+
+        maven {
+            url 'http://maven.xtr3m3k.net'
+        }
+
+        maven {
+            url "https://repo.aikar.co/content/groups/aikar/"
+        }
+
+        maven {
+            url "http://repo.dmulloy2.net/nexus/repository/public/"
+        }
+
+        maven {
+            url 'https://jitpack.io'
+        }
+
+        maven {
+            url 'https://repo1.maven.org/maven2/net/luckperms/api/'
+        }
+
+    }
+
+    compileKotlin {
+        kotlinOptions.jvmTarget = "1.8"
+    }
+
+    compileTestKotlin {
+        kotlinOptions.jvmTarget = "1.8"
+    }
+
+    tasks.withType(Jar) {
+        destinationDir = file("$rootDir/jars/")
+    }
+}

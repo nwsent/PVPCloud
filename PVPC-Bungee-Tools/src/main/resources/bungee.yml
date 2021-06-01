@@ -1,0 +1,5 @@
+name: PVPC-Bungee-Tools
+author: Krzysiekigry
+version: 2.0
+main: pl.pvpcloud.tools.ToolsPlugin
+softDepends: ['PVPC-Bungee-Libraries', 'PVPC-Bungee-Common', 'PVPC-Database', 'PVPC-Nats']

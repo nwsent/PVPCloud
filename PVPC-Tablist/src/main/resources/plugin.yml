@@ -1,0 +1,5 @@
+name: PVPC-Tablist
+version: 1.0
+author: Cyramek
+main: pl.pvpcloud.tablist.TablistPlugin
+depend: [PVPC-Common]

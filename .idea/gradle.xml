@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="GradleMigrationSettings" migrationVersion="1" />
+  <component name="GradleSettings">
+    <option name="linkedExternalProjectsSettings">
+      <GradleProjectSettings>
+        <option name="distributionType" value="DEFAULT_WRAPPED" />
+        <option name="externalProjectPath" value="$PROJECT_DIR$" />
+        <option name="modules">
+          <set>
+            <option value="$PROJECT_DIR$" />
+            <option value="$PROJECT_DIR$/PVPC-Achievements" />
+            <option value="$PROJECT_DIR$/PVPC-AntiCheat" />
+            <option value="$PROJECT_DIR$/PVPC-AntiClicker" />
+            <option value="$PROJECT_DIR$/PVPC-Bungee-Auth" />
+            <option value="$PROJECT_DIR$/PVPC-Bungee-Common" />
+            <option value="$PROJECT_DIR$/PVPC-Bungee-Libraries" />
+            <option value="$PROJECT_DIR$/PVPC-Bungee-Tools" />
+            <option value="$PROJECT_DIR$/PVPC-Castle" />
+            <option value="$PROJECT_DIR$/PVPC-Common" />
+            <option value="$PROJECT_DIR$/PVPC-Connect" />
+            <option value="$PROJECT_DIR$/PVPC-Database" />
+            <option value="$PROJECT_DIR$/PVPC-DatabaseAPI" />
+            <option value="$PROJECT_DIR$/PVPC-Edition" />
+            <option value="$PROJECT_DIR$/PVPC-Event" />
+            <option value="$PROJECT_DIR$/PVPC-Exercises" />
+            <option value="$PROJECT_DIR$/PVPC-FFA" />
+            <option value="$PROJECT_DIR$/PVPC-Fight" />
+            <option value="$PROJECT_DIR$/PVPC-GroupTP" />
+            <option value="$PROJECT_DIR$/PVPC-GroupTP/PVPC-GroupTPArena" />
+            <option value="$PROJECT_DIR$/PVPC-GroupTP/PVPC-GroupTPCommon" />
+            <option value="$PROJECT_DIR$/PVPC-GroupTP/PVPC-GroupTPHub" />
+            <option value="$PROJECT_DIR$/PVPC-Guilds" />
+            <option value="$PROJECT_DIR$/PVPC-Hub" />
+            <option value="$PROJECT_DIR$/PVPC-Libraries" />
+            <option value="$PROJECT_DIR$/PVPC-ManageApp" />
+            <option value="$PROJECT_DIR$/PVPC-ManageApp/PVPC-ManageApp-API" />
+            <option value="$PROJECT_DIR$/PVPC-ManageApp/PVPC-ManageApp-Server" />
+            <option value="$PROJECT_DIR$/PVPC-Moles" />
+            <option value="$PROJECT_DIR$/PVPC-Moles/PVPC-MolesArena" />
+            <option value="$PROJECT_DIR$/PVPC-Moles/PVPC-MolesCommon" />
+            <option value="$PROJECT_DIR$/PVPC-Moles/PVPC-MolesHub" />
+            <option value="$PROJECT_DIR$/PVPC-Nats" />
+            <option value="$PROJECT_DIR$/PVPC-Packets" />
+            <option value="$PROJECT_DIR$/PVPC-Party" />
+            <option value="$PROJECT_DIR$/PVPC-Redis" />
+            <option value="$PROJECT_DIR$/PVPC-Scoreboard" />
+            <option value="$PROJECT_DIR$/PVPC-Standard" />
+            <option value="$PROJECT_DIR$/PVPC-Statistics" />
+            <option value="$PROJECT_DIR$/PVPC-Tablist" />
+            <option value="$PROJECT_DIR$/PVPC-Tag" />
+            <option value="$PROJECT_DIR$/PVPC-Tools" />
+            <option value="$PROJECT_DIR$/PVPC-WebAPI" />
+            <option value="$PROJECT_DIR$/PVPC-XvsX" />
+            <option value="$PROJECT_DIR$/PVPC-XvsX/PVPC-XvsXArena" />
+            <option value="$PROJECT_DIR$/PVPC-XvsX/PVPC-XvsXCommon" />
+            <option value="$PROJECT_DIR$/PVPC-XvsX/PVPC-XvsXHub" />
+          </set>
+        </option>
+      </GradleProjectSettings>
+    </option>
+  </component>
+</project>

@@ -1,0 +1,5 @@
+name: PVPC-Redis
+author: Cyramek
+version: 2.0
+main: pl.pvpcloud.redis.BungeeRedisPlugin
+softDepends: ['PVPC-Bungee-Common']

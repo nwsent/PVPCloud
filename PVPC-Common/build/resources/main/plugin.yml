@@ -1,0 +1,5 @@
+name: PVPC-Common
+version: 2.0
+main: pl.pvpcloud.common.CommonPlugin
+author: PVPCloud Team
+softdepend: [PVPC-Libraries]

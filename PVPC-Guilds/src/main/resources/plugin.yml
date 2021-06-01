@@ -1,0 +1,5 @@
+name: PVPC-Guilds
+version: 2.0
+author: PVPCloud Team
+main: pl.pvpcloud.guild.impl.GuildsPlugin
+softdepend: [PVPC-Database, PVPC-Tablist]

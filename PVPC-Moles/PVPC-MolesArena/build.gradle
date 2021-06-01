@@ -1,0 +1,22 @@
+repositories {
+    mavenCentral()
+}
+
+dependencies {
+    compileOnly project(":PVPC-Libraries")
+    compileOnly project(":PVPC-Common")
+    compileOnly project(":PVPC-DatabaseAPI")
+    compileOnly project(":PVPC-Tag")
+    compileOnly project(":PVPC-Fight")
+    compileOnly project(":PVPC-Statistics")
+    compileOnly project(":PVPC-Scoreboard")
+    compileOnly project(":PVPC-Tools")
+    compileOnly project(":PVPC-Nats")
+    compileOnly project(":PVPC-Redis")
+    compileOnly project(":PVPC-Guilds")
+    compileOnly project(":PVPC-Connect")
+    compileOnly 'org.github.paperspigot:paperspigot-api:1.8.8-R0.1-SNAPSHOT'
+    compileOnly 'org.github.paperspigot:paperspigot:1.8.8-R0.1-SNAPSHOT'
+
+    compile project(":PVPC-Moles:PVPC-MolesCommon")
+}

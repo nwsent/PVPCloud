@@ -1,0 +1,5 @@
+name: PVPC-Statistics
+version: 2.0
+author: PVPCloud Team
+softdepend: ['PVPC-Database', 'PVPC-Tablist']
+main: pl.pvpcloud.statistics.StatisticsPlugin

@@ -1,0 +1,5 @@
+name: PVPC-AntiClicker
+version: 2.0
+author: PVPCloud Team
+depend: ['PVPC-Common']
+main: pl.pvpcloud.anticlicker.AntiClickerPlugin

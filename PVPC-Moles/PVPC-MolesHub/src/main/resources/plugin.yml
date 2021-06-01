@@ -1,0 +1,5 @@
+name: PVPC-MolesHub
+version: 2.0
+main: pl.pvpcloud.moles.hub.MolesPlugin
+author: PVPCloud Team
+softdepend: ['PVPC-Database', 'PVPC-Connect', 'PVPC-Tablist']

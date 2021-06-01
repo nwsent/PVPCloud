@@ -1,0 +1,9 @@
+dependencies {
+    compileOnly project(":PVPC-Libraries")
+    compileOnly project(":PVPC-Common")
+    compileOnly project(":PVPC-Tools")
+    compileOnly project(":PVPC-DatabaseAPI")
+    compile "com.sparkjava:spark-kotlin:1.0.0-alpha"
+    compile "org.slf4j:slf4j-api:1.7.5"
+    compile "org.slf4j:slf4j-simple:1.6.4"
+}
